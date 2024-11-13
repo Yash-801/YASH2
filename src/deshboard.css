@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.aiimg2 {
+  height: 40px;
+  max-width: 250px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.navare {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.dashcontaintant {
+  width: 84%;
+  display: flex;
+}
+
+.options {
+  gap: 5px;
+  color: #454545;
+}
+.options2:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.proimg {
+  border-radius: 50%;
+}
+
+.toglmenu {
+  border: 1px solid #004d7e;
+  border-radius: 20px;
+}
+
+.profileimg2 {
+  border-radius: 100px;
+}
+
+.profileinfop1 {
+  color: #353636;
+}
+.p2 {
+  color: #38383a;
+  font-size: 14px;
+}
+
+.desh2 {
+  width: 84%;
+}
+
+.dash2p2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #071437;
+}
+
+.dash2btn {
+  background-color: #004473;
+  border: none;
+  border-radius: 0.8rem;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 13px;
+  height: max-content;
+}
