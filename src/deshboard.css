@@ -20,6 +20,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  background-color: white;
 }
 
 .dashcontaintant {
@@ -76,4 +77,63 @@
   padding: 10px 20px;
   font-size: 13px;
   height: max-content;
+}
+
+.fulltimetxt {
+  color: #7b66ff;
+  font-weight: 600;
+}
+
+.jobcontanir {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin: 20px;
+}
+
+.jobcards {
+  border: 1px solid #e8e8e8;
+  cursor: pointer;
+}
+
+.cardinfo1 {
+  color: #0b2b82;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.cardinfo2 {
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #3d589b;
+  margin-bottom: 1.5rem;
+}
+
+.cardinfo3 {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  color: #3d589b;
+  margin-bottom: 1rem;
+}
+
+.cardinfobtn {
+  background: none;
+  border: none;
+  color: #0c2e82;
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.navbar {
+  animation: fadeInDown 0.5s ease-in-out 0s 1 normal none running;
+  background-color: white;
+  left: 0;
+
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 999;
 }
